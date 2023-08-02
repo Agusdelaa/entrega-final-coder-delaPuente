@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css");
+
+* {
+    margin: 10px;
+    color-scheme: dark;
+}
+
+.boton-comprar{
+    background-color: #de9100 !important;
+}
+.boton-comprar:hover{
+    background-color: gray !important;
+    color: greenyellow;
+    transition: 1s all;
+    box-shadow: #121212 !important;
+}
+
+.boton-card-index{
+    width: 60px;
+}
+.orden{
+    display: inline;
+}
+.right{
+    justify-content: right;
+}
+.negro{
+    background-color: #121212!important;
+    border-color: #121212 !important;
+    font-size: 18px;
+}
+
+.negro:hover{
+    background-color: white !important;
+    transition: 1s all;
+}
+
+.centrar-div {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(74, 1, 90);
+    font-weight: 700;
+    padding: 10px;
+}
+
+hr {
+    border-top: 2px solid orange !important;
+}
+
+
+.logo {
+    display: inline;
+    width: 48px;
+    float: right;
+}
+
+div.header {
+    display: inline;
+}
+
+
+.container {
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-error {
+    text-align: center;
+    display: flexbox;
+    background-color: whitesmoke;
+    color: rgba(139, 0, 0, 0.772);
+    border: 1px solid darkred;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 6px  lightblue;
+    margin-bottom: 30px;
+}
+.div-card {
+    display: flexbox;
+    margin: 6px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightblue;
+    box-shadow: 10px 6px 6px rgba(211, 211, 211, 0.221);
+    width: 200px;
+    height: 250px;
+}
+
+.div-card:hover {
+    background-color:rgb(229, 248, 255);
+    transition: .5s ease-in;
+    box-shadow: 5px 20px 60px rgba(211, 211, 211, 0.519);
+}
+
+div.imagen {
+    font-size: 120px !important;
+}
+
+div.prenda {
+    font-size: 18px;
+}
+
+div.importe {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button {
+    font-size: 10px;
+
+    padding: 0px;
+}
+
+button, button:not(:hover) {
+    background-color: darkslategray;
+    border-color: gray;
+}
+
+button:hover {
+    background-color: darkcyan;
+    color: whitesmoke;
+    border-color: lightgray;
+}
+
+.button-add {
+    width: 80px;
+}
+
+button:active {
+    background-color: black;
+    color: whitesmoke;
+    border-color: black;
+}
+
+.wobble-hor-bottom {
+	        animation: wobble-hor-bottom 0.8s both;
+}
+
+ @-webkit-keyframes wobble-hor-bottom {
+    0%,
+    100% {
+              transform: translateX(0%);
+              transform-origin: 50% 50%;
+    }
+    15% {
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  @keyframes wobble-hor-bottom {
+    0%,
+    100% {
+              transform: translateX(0%);
+              transform-origin: 50% 50%;
+    }
+    15% {
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  
